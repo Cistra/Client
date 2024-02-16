@@ -102,7 +102,7 @@ catch(e){
           <img src={user} className=" mr-4 w-10 rounded-xl"></img>
           </div>
           </div>
-          <div className='m-5 text-3xl'>
+          <div className='m-5 text-3xl cursor-pointer'>
           Artificial intelligence (AI) has revolutionized various industries by offering capabilities that were once considered futuristic. With AI, businesses and organizations can achieve remarkable feats that were previously unimaginable. Here's a paragraph describing what AI can do:
           </div>
           <span className='flex'>
@@ -115,7 +115,7 @@ catch(e){
               </div>
             </button>
             </span>
-            <div id='messages' className='pl-3 pt-1 text-xl bg-grey w-full ml-6 rounded-lg' ></div>
+            <div id='messages' className='pl-3 pt-1 text-xl bg-grey ml-6 rounded-lg' ></div>
            
           
 {/*           
