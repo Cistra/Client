@@ -56,6 +56,32 @@ label{
 #textarea{
     width: 80%;
     display: inline;
+   
+}
+#menu{
+    display: none;
+}
+#sb{
+    display: none;
+}
+@media screen and (max-width: 500px) {
+  #menu{
+    display: block;
+  }
+  
+ #sb li{
+    border-bottom: 2px solid white;
+    margin:auto 20px ;
+    padding: 20px 20px;
+    padding-right: 0;
+    cursor:pointer;
+    user-select: none;
+    font-size: 20px;
+ }
 
-    
+
+ #xb{
+    margin-left:80%;
+    width: 26px;
+ }
 }
